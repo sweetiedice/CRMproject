@@ -1,0 +1,44 @@
+﻿<Page x:Class="CRM.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CRM"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LoginPage">
+
+    <Border VerticalAlignment="Center" HorizontalAlignment="Center" CornerRadius="10" BorderThickness="5" BorderBrush="#60cdce" Padding="10">
+        <Grid MinHeight="300" MinWidth="500" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock  Text="Имя пользователя" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="20" VerticalAlignment="Bottom"  Grid.Row="0" Margin="5" Grid.ColumnSpan="2" Foreground="#FF1A1A1A"/>
+            <TextBox FontSize="18" Padding="5" BorderThickness="0,0,0,1" BorderBrush="#60cdce" Background="Transparent" Grid.Row="1" Margin="5" Grid.ColumnSpan="2" />
+            <TextBlock Text="Пароль" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="20" VerticalAlignment="Bottom" Grid.Row="2" Margin="5" Grid.ColumnSpan="2" Foreground="#FF1A1A1A"/>
+            <PasswordBox FontSize="18" Padding="5" BorderThickness="0,0,0,1" BorderBrush="#60cdce" Background="Transparent" Grid.Row="3" Margin="5" Grid.ColumnSpan="2"/>
+            <Button Click="buttonLoginClick" FontFamily="Comic Sans MS" FontWeight="Bold" Padding="5" Foreground="#FF1A1A1A" Style="{DynamicResource ButtonRoundStyle}" FontSize="20" Width="150" Content="Войти" Grid.Row="5" Margin="5" Grid.ColumnSpan="2"/>
+            <TextBlock FontFamily="Comic Sans MS" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="7" Margin="5" Grid.ColumnSpan="1">                                
+            <Hyperlink Click="hyperlinkRegistrationClick" Foreground="#244d4d" TextDecorations="None">Нет учетной записи? Регистрация.</Hyperlink>
+            </TextBlock>
+            <TextBlock FontFamily="Comic Sans MS" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="7" Margin="5" Grid.Column="1">                                
+            <Hyperlink Click="hyperlinkLoginGuestClick" Foreground="#244d4d" TextDecorations="None">Продолжить без регистрации...</Hyperlink>
+            </TextBlock>
+        </Grid>
+
+    </Border>
+
+</Page>
+
