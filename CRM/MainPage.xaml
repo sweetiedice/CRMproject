@@ -14,7 +14,13 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <DataGrid Grid.ColumnSpan="2"/>
-        <Frame Grid.Column="2" x:Name="neMainFrame"/>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="10*"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBox/>
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Frame NavigationUIVisibility="Hidden" Grid.Column="2" x:Name="userToolsFrame"/>
     </Grid>
 </Page>

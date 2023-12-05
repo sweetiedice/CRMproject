@@ -27,12 +27,12 @@ namespace CRM
 
         private void buttonLoginClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Авторизация в приложении находится в разработке!", "Регистрация", MessageBoxButton.OK, MessageBoxImage.Question);
+            MessageBox.Show("Авторизация в приложении находится в разработке!", "Авторизация", MessageBoxButton.OK, MessageBoxImage.Question);
         }
 
         private void hyperlinkLoginGuestClick(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new Uri("MainPage.xaml", UriKind.Relative));
         }
         private void hyperlinkRegistrationClick(object sender, RoutedEventArgs e)
         {

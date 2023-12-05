@@ -16,3 +16,43 @@ C:\Users\Студент.POLYTECH\source\repos\CRM\obj\Debug\CRM.csproj.CoreCompi
 C:\Users\Студент.POLYTECH\source\repos\CRM\obj\Debug\CRM.exe
 C:\Users\Студент.POLYTECH\source\repos\CRM\obj\Debug\CRM.pdb
 C:\Users\Студент.POLYTECH\source\repos\CRM\obj\Debug\App.baml
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\bin\Debug\CRM.exe.config
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\bin\Debug\CRM.exe
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\bin\Debug\CRM.pdb
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.csprojAssemblyReference.cache
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\LoginPage.g.cs
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\MainPage.g.cs
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\MainWindow.g.cs
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\App.g.cs
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM_MarkupCompile.cache
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM_MarkupCompile.lref
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\App.baml
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\LoginPage.baml
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\MainPage.baml
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\MainWindow.baml
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.g.resources
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.Properties.Resources.resources
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.csproj.GenerateResource.cache
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.exe
+C:\Users\Студент.POLYTECH\Downloads\CRMproject\CRM\obj\Debug\CRM.pdb
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\bin\Debug\CRM.exe.config
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\bin\Debug\CRM.exe
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\bin\Debug\CRM.pdb
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\LoginPage.g.cs
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\MainPage.g.cs
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\MainWindow.g.cs
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\App.g.cs
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM_MarkupCompile.cache
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM_MarkupCompile.lref
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\App.baml
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\LoginPage.baml
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\MainPage.baml
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\MainWindow.baml
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.g.resources
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.Properties.Resources.resources
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.csproj.GenerateResource.cache
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.exe
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.pdb
+M:\Гагина\81 группа\Хлуднев\prjct\CRM\obj\Debug\CRM.csproj.AssemblyReference.cache

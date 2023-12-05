@@ -41,7 +41,7 @@ namespace CRM {
     public partial class MainPage : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         
-        #line 24 "..\..\MainPage.xaml"
+        #line 23 "..\..\MainPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Frame userToolsFrame;
         

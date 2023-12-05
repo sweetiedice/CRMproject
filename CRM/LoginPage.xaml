@@ -9,7 +9,7 @@
       Title="LoginPage">
 
     <Border VerticalAlignment="Center" HorizontalAlignment="Center" CornerRadius="10" BorderThickness="5" BorderBrush="#60cdce" Padding="10">
-        <Grid MinHeight="300" MinWidth="500" HorizontalAlignment="Center" VerticalAlignment="Center" >
+        <Grid MinHeight="400" MinWidth="500" HorizontalAlignment="Center" VerticalAlignment="Center" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -23,17 +23,18 @@
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
-
-            <TextBlock  Text="Имя пользователя" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="20" VerticalAlignment="Bottom"  Grid.Row="0" Margin="5" Grid.ColumnSpan="2" Foreground="#FF1A1A1A"/>
-            <TextBox FontSize="18" Padding="5" BorderThickness="0,0,0,1" BorderBrush="#60cdce" Background="Transparent" Grid.Row="1" Margin="5" Grid.ColumnSpan="2" />
-            <TextBlock Text="Пароль" FontFamily="Comic Sans MS" FontWeight="Bold" FontSize="20" VerticalAlignment="Bottom" Grid.Row="2" Margin="5" Grid.ColumnSpan="2" Foreground="#FF1A1A1A"/>
-            <PasswordBox FontSize="18" Padding="5" BorderThickness="0,0,0,1" BorderBrush="#60cdce" Background="Transparent" Grid.Row="3" Margin="5" Grid.ColumnSpan="2"/>
-            <Button Click="buttonLoginClick" FontFamily="Comic Sans MS" FontWeight="Bold" Padding="5" Foreground="#FF1A1A1A" Style="{DynamicResource ButtonRoundStyle}" FontSize="20" Width="150" Content="Войти" Grid.Row="5" Margin="5" Grid.ColumnSpan="2"/>
-            <TextBlock FontFamily="Comic Sans MS" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="7" Margin="5" Grid.ColumnSpan="1">                                
+            <Image Source="Resourses/logo.png" Width="50" Height="50" Grid.ColumnSpan="2" />
+            <TextBlock  Text="Имя пользователя" FontFamily="Corbel" FontWeight="Bold" FontSize="20" VerticalAlignment="Bottom"  Grid.Row="1" Margin="5" Grid.ColumnSpan="2" Foreground="#FF1A1A1A"/>
+            <TextBox FontFamily="Corbel" FontSize="18" Padding="5" BorderThickness="0,0,0,1" BorderBrush="#60cdce" Background="Transparent" Grid.Row="2" Margin="5" Grid.ColumnSpan="2" />
+            <TextBlock Text="Пароль" FontFamily="Corbel" FontWeight="Bold" FontSize="20" VerticalAlignment="Bottom" Grid.Row="3" Margin="5" Grid.ColumnSpan="2" Foreground="#FF1A1A1A"/>
+            <PasswordBox FontFamily="Corbel" FontSize="18" Padding="5" BorderThickness="0,0,0,1" BorderBrush="#60cdce" Background="Transparent" Grid.Row="4" Margin="5" Grid.ColumnSpan="2"/>
+            <Button Click="buttonLoginClick" FontFamily="Corbel" FontWeight="Bold" Padding="5" Foreground="#FF1A1A1A" Style="{DynamicResource ButtonRoundStyle}" FontSize="20" Width="150" Content="Войти" Grid.Row="6" Margin="5" Grid.ColumnSpan="2"/>
+            <TextBlock FontFamily="Corbel" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="8" Margin="5" Grid.ColumnSpan="1">                                
             <Hyperlink Click="hyperlinkRegistrationClick" Foreground="#244d4d" TextDecorations="None">Нет учетной записи? Регистрация.</Hyperlink>
             </TextBlock>
-            <TextBlock FontFamily="Comic Sans MS" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="7" Margin="5" Grid.Column="1">                                
+            <TextBlock FontFamily="Corbel" TextAlignment="Left" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="8" Margin="5" Grid.Column="1">                                
             <Hyperlink Click="hyperlinkLoginGuestClick" Foreground="#244d4d" TextDecorations="None">Продолжить без регистрации...</Hyperlink>
             </TextBlock>
         </Grid>
