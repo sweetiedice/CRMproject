@@ -1,1 +1,1 @@
-Иди нахуй Андрей# CRMproject
+#CRMproject
